@@ -4,12 +4,12 @@ Comenzile Lexito în meniul `/` din Claude. Pluginul lucrează prin conectorul L
 
 ## Instalare
 
-**claude.ai și Claude Desktop:** Customize → Plugins → Add → din GitHub, `danieltamas/lexito-plugin`.
+**claude.ai și Claude Desktop:** Customize → Plugins → Add → din GitHub, `danieltamas/lexito.ro-plugin`.
 
 **Claude Code:**
 
 ```
-/plugin marketplace add danieltamas/lexito-plugin
+/plugin marketplace add danieltamas/lexito.ro-plugin
 /plugin install lexito@lexito
 ```
 
