@@ -1,0 +1,14 @@
+{
+  "name": "lexito",
+  "owner": { "name": "Lexito", "url": "https://lexito.ro" },
+  "metadata": {
+    "description": "Comenzile Lexito pentru Claude: rezumatul zilei, dosare, termene, prin conectorul Lexito."
+  },
+  "plugins": [
+    {
+      "name": "lexito",
+      "source": "./plugins/lexito",
+      "description": "Comenzile Lexito în meniul /. Lucrează prin conectorul Lexito."
+    }
+  ]
+}
