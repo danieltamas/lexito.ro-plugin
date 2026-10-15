@@ -4,14 +4,8 @@ Comenzile Lexito în meniul `/` din Claude. Pluginul lucrează prin conectorul L
 
 ## Instalare
 
-**claude.ai și Claude Desktop:** Customize → Plugins → Add → din GitHub, `danieltamas/lexito.ro-plugin`.
-
-**Claude Code:**
-
-```
-/plugin marketplace add danieltamas/lexito.ro-plugin
-/plugin install lexito@lexito
-```
+1. Descarcă `lexito.zip`.
+2. În Claude: Customize → Plugins → Add → Upload plugin, și alege fișierul.
 
 Conectorul Lexito se adaugă separat, din contul tău Lexito.
 
@@ -26,5 +20,9 @@ Lista crește odată cu Lexito.
 ## Date
 
 Pluginul conține doar instrucțiuni pentru Claude. Nu stochează și nu trimite date; tot ce vede Claude vine din conectorul Lexito, cu permisiunile contului tău.
+
+## Pentru dezvoltare
+
+`./build.sh` produce `dist/lexito.zip`.
 
 [lexito.ro](https://lexito.ro)
